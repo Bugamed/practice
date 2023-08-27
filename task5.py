@@ -4,7 +4,7 @@ def nfib(number):
     n = 1
     try:
         number = int(number)
-    except:
+    except ValueError:
         raise ValueError
     if number <= 0:
         raise OutOfRangeError
