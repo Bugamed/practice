@@ -31,3 +31,4 @@ def nask(amin=20,amax=1000):
     
 bubble(generator(nask()))
 
+#ляля тополя
